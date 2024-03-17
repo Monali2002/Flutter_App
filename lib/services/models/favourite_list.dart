@@ -19,25 +19,25 @@ class FavouriteListModel {
         FavouriteListModel(
           name: 'Education feedback',
           iconPath: 'assets/icons/list_icon_1.png',
-          people: 'assets/icons/avatar_1',
+          people: 'assets/icons/avatar_1.png',
           boxIsSelected: false,
         )
     );
 
     favoriteList.add(
         FavouriteListModel(
-          name: 'Education feedback',
+          name: 'Code generation',
           iconPath: 'assets/icons/list_icon_2.png',
-          people: 'assets/icons/avatar_1',
+          people: 'assets/icons/avatar_1.png',
           boxIsSelected: false,
         )
     );
 
     favoriteList.add(
         FavouriteListModel(
-          name: 'Education feedback',
+          name: 'photo retouch',
           iconPath: 'assets/icons/list_icon_3.png',
-          people: 'assets/icons/avatar_1',
+          people: 'assets/icons/avatar_2.png',
           boxIsSelected: false,
         )
     );

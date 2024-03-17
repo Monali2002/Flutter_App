@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:star_astro_gpt/pages/add_page.dart';
 import 'package:star_astro_gpt/pages/chatlist_page.dart';
 import 'package:star_astro_gpt/pages/home_page.dart';
 import 'package:star_astro_gpt/pages/notification_page.dart';
 import 'package:star_astro_gpt/pages/search_page.dart';
-import 'package:star_astro_gpt/utilis/colors.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
