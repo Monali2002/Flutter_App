@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:star_astro_gpt/pages/others/custom_appBar.dart';
 import 'package:star_astro_gpt/services/models/all_types_list.dart';
 import 'package:star_astro_gpt/utilis/constants.dart';
 import '../services/models/favourite_list.dart';
@@ -33,9 +34,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     _getInitialInfo();
     TabController _tabController = TabController(length: 4, vsync: this);
     return Scaffold(
+      appBar: CustomAppBar(height: 60,),
       body: ListView(
         children: [
-          _appBar(),
           SizedBox(
             height: 30,
           ),
